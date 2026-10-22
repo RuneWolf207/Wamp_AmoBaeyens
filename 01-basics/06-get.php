@@ -10,15 +10,26 @@
 <body>
 	
 	<!-- Formulier -->
-     
+	<form action="" method="get">
+        <label for"username">Username:</label>
+        <input type="text" id="username" name="username" value>
+
+        <label for"password">password:</label>
+        <input type="password" id="password" name="password">
+
+        <input type="submit" value="Login">
+
+     <?php
+	 //=========== GET superglobal
 
 
-	<?php 
-		//========== GET superglobal
-        
+        echo "<pre>";
+        print_r($_GET);
+		
+        echo $_GET['username'];
+        echo $_GET['password'];
 
-        
-	?>
+     ?>
     
     <a href="05TASK-if-else-and-operators.php" class='previousTopic' disabled>Ga naar vorig topic</a>
     <a href="06-post.php" class='nextTopic'>Ga naar volgend topic</a>

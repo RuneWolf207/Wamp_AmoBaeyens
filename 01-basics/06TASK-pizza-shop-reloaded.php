@@ -16,6 +16,21 @@
 		// When the form is submitted, calculate the total price and how many slices each person gets if each pizza has 8 slices.
 	    // ===========================================================
 		
+		$pizzaPrice = 12;
+		$toppingPrice = 1.5;
+		$deliveryFee = 2.99;
+		$nrPizza = 3;
+		$nrToppings = 2;
+		$nrPeople = 4;
+		$slicesPerPizza = 8;
+		$totalPrice = ($pizzaPrice + ($toppingPrice * $nrToppings)) * $nrPizza + $deliveryFee;
+		$totalSlices = $nrPizza * $slicesPerPizza;
+		$slicesPerPerson = $totalSlices / $nrPeople;
+
+
+
+		echo "The total price of the order is: €" . $totalPrice . "<br>";
+		echo "Each person gets " . $slicesPerPerson . " slices of pizza.<br>";
 
 		
 

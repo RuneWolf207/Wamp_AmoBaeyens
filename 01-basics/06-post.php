@@ -10,6 +10,14 @@
 <body>
 	
 	<!-- Formulier -->
+	<form action="" method="post">
+        <label for"username">Username:</label>
+        <input type="text" id="username" name="username">
+
+        <label for"password">password:</label>
+        <input type="password" id="password" name="password">
+
+        <input type="submit" value="Login">
 
 
 
