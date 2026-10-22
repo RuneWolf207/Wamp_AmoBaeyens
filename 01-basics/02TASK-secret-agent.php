@@ -15,7 +15,10 @@
         // Then, echo them out as a dossier. 
         // Spare time? Style it with CSS!
 	    // ===========================================================
-        
+        $codename = "jonny code"
+		$age
+		$favouriteGadget
+
 
 
 		// Time: 3-10 minutes

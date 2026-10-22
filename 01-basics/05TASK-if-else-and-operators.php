@@ -11,23 +11,37 @@
     
 	<?php 
 		//========== If
-
-
-
+		$age = 20;
+		if ($age >= 18) {
+			echo "je bent volwassen.<br>";
+		}
 		//========== Else
-
+		$age = 16;
+		if ($age >= 18) {
+			echo "je bent volwassen.<br>";
+		} else {
+			echo "je bent minderjarig.<br>";
+		}
 
 
 		//========== Else if
-		
+		$age = 70;
+			if ($age < 18) {
+				echo "je bent minderjarig.<br>";
+			} elseif ($age < 65) {
+				echo "je bent volwassen.<br>";
+			} else {
+				echo "je bent gepensioneerd.<br>";
+			}
+
 
 
 		//========== List all comparison operators (7)
-		
+		// ==, ===, !=, <>, !==, >, <, >=, <=
 
 
 		//========== List all logical operators (3)
-
+		//&& || !
 
 
 		// Time: 6-10 minutes
