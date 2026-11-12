@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,15 +11,18 @@
     
 	<?php 
 		//========== functions
-		
+		function lachenMetLeerlingen();
 
 
 		//========== return values
-		
+		lachenMetLeerlingen();
 
 		
 		//========== calling functions
-		
+		function lachenMetLeerlingen2(){
+			return;
+			return "er is een Aaron met 2 A's"
+		}
 
 
 		//========== functions with (fallback) parameters

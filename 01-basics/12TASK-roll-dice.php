@@ -15,8 +15,18 @@
 		// Figure out how to implement X and Y.
 		// Return a string which mentions all rolled dice and gives a total. 
 	    // ===========================================================
-		
-		
+		function rollDice($sides, $amount){
+			$rolls = [];
+			$total = 0;
+			
+			for ($i=0; $i < $amount; $i++) { 
+				$roll = rand(1, $sides);
+				$rolls[] = $roll;
+				$total += $roll;
+			}
+			return "rolled: " . implode(', ', $rolls) . " | total: $total";
+		}
+		echo rollDice(20, 3);
 
 		// Time: 5-12 minutes
 		// Record: 10:57 Falco (BINF, 2025)
