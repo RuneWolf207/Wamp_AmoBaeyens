@@ -10,13 +10,13 @@
 <body>
     
 	<?php 
-		// ===========================================================
+		// ==========================================================
 		// Maak een lijst met bezoekers die in een achtbaan willen
 		// Gebruik een loop om de achtbaan 3 keer te laten rijden
 		// Elke ronde echo je "Rit X vertrekt!"
 		// In elke ronde gebruik je een foreach loop om te echoën welke bezoekers in de attractie zitten:
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
-		// ===========================================================
+		// ==========================================================
 		$visitors=["Alice","bob","rob"];
 
 		$messages = [
