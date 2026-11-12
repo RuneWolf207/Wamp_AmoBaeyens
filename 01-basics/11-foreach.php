@@ -11,7 +11,11 @@
     
 	<?php 
         //========== Loop through indexed array with foreach
-        
+        $color = array("purple","green","blue","red");
+
+		foreach ($color as $value) {
+			echo "<p style='color: $value;'>$value</p>";
+		}
 
 
 
