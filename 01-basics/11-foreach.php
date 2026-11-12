@@ -11,16 +11,26 @@
     
 	<?php 
         //========== Loop through indexed array with foreach
-        $color = array("purple","green","blue","red");
+        $colors = array("purple","green","blue","red");
 
-		foreach ($color as $value) {
-			echo "<p style='color: $value;'>$value</p>";
+		foreach ($colors as $color) {
+			echo "<p style='color: $color;'>$color</p>";
 		}
+		
 
 
 
         //========== Loop through keyed array with foreach
-        
+		$fruits = [
+			'purple' => 'grape',
+			'green' => 'pear',
+			'blue' => 'brazilian blueberry',
+			'red' => 'strawberry',
+
+		]
+        foreach ($colors as $index => $color) {
+			
+		}
 
 
 	?>

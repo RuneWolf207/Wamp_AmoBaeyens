@@ -17,7 +17,26 @@
 		// In elke ronde gebruik je een foreach loop om te echoën welke bezoekers in de attractie zitten:
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
 		// ===========================================================
-		
+		$visitors=["Alice","bob","rob"];
+
+		$messages = [
+			'is bored',
+			'is smiling',
+			'is laughing',
+			'is yelling',
+			'is holding on tight',
+			'is screaming',
+		];
+
+		for ($i=1; $i <= 3 ; $i++) {
+			echo "ronde $i vertrekt<br>";
+
+			foreach ($visitors as $visitor) {
+				$funlvl = rand(0, 5);
+				echo "$visitor " . $messages[$funlvl] . "!<br>";
+			};
+			echo "<br>";
+		}
 
 
 
